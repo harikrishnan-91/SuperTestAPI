@@ -4,7 +4,7 @@ const request = require('supertest'); // import supertest
 // const expect = require('chai').expect; // import expect
 
 // Test Suite
-describe('Verify that the Get and POST API returns correctly', function(){
+describe('Verify that the first get request', function(){
         // Test case 1
         it('Verify that the GET API returns correctly', function(done){
             request('https://reqres.in/api') // Test endpoint
