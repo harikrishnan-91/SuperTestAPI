@@ -9,7 +9,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 script {
-                    sh 'npm install'
+                    bat 'npm install'
                 }
             }
         }
@@ -17,7 +17,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 script {
-                    sh 'npm test'  // Run Supertest or any other tests
+                    bat 'npm test'  // Run Supertest or any other tests
                 }
             }
         }
